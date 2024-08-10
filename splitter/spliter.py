@@ -182,6 +182,7 @@ if __name__ == "__main__":
     expense_manager.add_expense('Ashish', 133, ['Geet'], 'Baker Street')
     expense_manager.add_expense('Ashish', 76, ['Kartik'], 'Baker Street')
     expense_manager.add_expense('Lavisha', 60, ['Geet'], 'Bakery')
+    expense_manager.add_expense('Kartik', 1180, ['Agrim', 'Geet', 'Ashish', 'Kartik', 'Lavisha'], 'Drinks Cabo Rum Jagermister')
 
     # Display the final balances
     expense_manager.display_balances()
